@@ -16,11 +16,11 @@ Input file can be generated using tests_generator.cc by typing:
 g++ testGenerator.cc -o generator
 ./generator #S #C #SubN #m #M seed > {input file}
 ```
-#S: number of students
-#C: number of connections between students
-#SubN: number of sub-networks
-#m: minimum number of students in each sub-network(optional, default: 1)
-#M: maximum number of students in each sub-network (optional, default: 10)
-seed: seed for the random generator (optional, default: 0)```
+- #S: number of students
+- #C: number of connections between students
+- #SubN: number of sub-networks
+- #m: minimum number of students in each sub-network(optional, default: 1)
+- #M: maximum number of students in each sub-network (optional, default: 10)
+- seed: seed for the random generator (optional, default: 0)
 
 This project was in cooperation with [@MargaridaMoreira](https://github.com/MargaridaMoreira). :wink: Check her out!
